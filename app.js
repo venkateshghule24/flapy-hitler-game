@@ -40,10 +40,10 @@ function preload () {
 function create () {
   this.add.image(400, 300, 'background').setScale(1.2);
 
-  bird = this.physics.add.sprite(100, 100, 'germany').setScale(0.11); // initial Y is top-ish
+  bird = this.physics.add.sprite(100, 100, 'germany').setScale(0.11); 
 bird.setCollideWorldBounds(true);
-bird.setBounce(0.6); // This allows bouncing
-bird.setVelocityY(100); // Start falling
+bird.setBounce(0.6); 
+bird.setVelocityY(100); 
 
 
   cursors = this.input.keyboard.createCursorKeys();
